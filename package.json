@@ -1,0 +1,25 @@
+{
+  "name": "mockbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development babel-node src/index.js",
+    "clear:build": "rm -rf dist/*",
+    "fresh:build": "babel -d ./dist ./src -s",
+    "build": "npm run clear:build && npm run fresh:build",
+    "serve": "NODE_ENV=production node dist/index"
+  },
+  "author": "Chucky",
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.2.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "twitter": "^1.7.1"
+  }
+}
