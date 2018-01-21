@@ -10,7 +10,7 @@ Usage - You need nodejs to run it - look in package.json for run commands, probs
 
 Ok, so what the f does it do?
 
-Type something like "wow cocky $ZCL" as a reply to the author you want to mock - $ZCL is the trigger (can be whatever) it adds the orig author to that group. When you find something you want to mock or pump on you type a reply that contains "@ $ZCL" or whatever the trigger is... e.g. What a cock up @ $ZCL - mockBot replies to the message for each user recorded saying "Hey @target - @author is on the money!! - author being the original tweets author
+Type something like "wow cocky $ZCL" as a reply to the author you want to mock - $ZCL is the trigger (can be whatever) it adds the orig author to that group. When you find something you want to mock or pump on you type a reply that contains "@ $ZCL" or whatever the trigger is... e.g. look at that @ $ZCL - mockBot replies to the message for each user recorded saying "Hey @target - @author is on the money!! - author being the original tweets author
 
 
 ### Accepting donations in KMD at: RGAhnSCNx18VqJAFzog9EANnPQuspzeWqY
